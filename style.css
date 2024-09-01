@@ -1,3 +1,19 @@
+/* Media Queries */
+
+/* Mobile Device */
+@media screen and (max-width:500px) {
+    body {
+       font-size: 35px; 
+    }
+}
+
+/* Deckstop Device */
+@media screen and (max-width:769px) {
+    body {
+        font-size: 45px;
+    }
+}
+
 .body{
     background-color: #fffffe;
     margin: 0;
@@ -17,6 +33,10 @@
     text-align: center;
     color: #1b2d45;
     font-style:initial;
+}
+
+.main-img{
+    padding: 20px;
 }
 
 .nav1{
